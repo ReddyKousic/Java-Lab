@@ -1,0 +1,14 @@
+
+1. create two dimention array with 5*5 size of integer type and get the value for this array through Scanner class. and find the array is lucky array or not.
+the array is said to lucky if all elements in primary diagonal is prime numbers. 
+
+
+
+2. create two 2D arrays A and B with the size of 5*5. and find the GCD array C of 5*5 across A & B.Note: get the elements for Array A and B through Scanner class.
+
+
+
+
+
+
+ 
