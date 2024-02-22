@@ -26,7 +26,7 @@ class Array
         for(int j=0;j<A[i].length; j++)
             A[i][j] = sc.nextInt();
 
-        System.out.println("Elements of array A are:");
+        System.out.println("Diagonal elements of array A are:");
         for(int i=0;i<A.length;i++)
         for(int j=0;j<A[i].length;j++)
             if(i==j)
