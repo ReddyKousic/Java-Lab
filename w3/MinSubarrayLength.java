@@ -1,3 +1,5 @@
+// MUNI KOUSIC KUMAR REDDY T 23MIS7091
+
 public class MinSubarrayLength {
 
     public static int minSubArrayLen(int target, int[] nums) {
@@ -19,7 +21,7 @@ public class MinSubarrayLength {
     }
 
     public static void main(String[] args) {
-        int[] nums = {2, 3, 1, 2, 4, 3};
+        int[] nums = {2, 3, 1, 2, 4, 3, 5, 6, 8};
         int target = 7;
         int minLen = minSubArrayLen(target, nums);
         System.out.println("Minimal length of subarray: " + minLen);

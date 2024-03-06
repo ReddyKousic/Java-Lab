@@ -10,7 +10,7 @@ write a java program with class and control statements to implement above senari
 given an array of positive integer numbers and a positive integer target return the minimal length of sub array whose sum is greater than or equal to the target if there are no sub array return zero
 */
 
-
+// MUNI KOUSIC KUMAR REDDY T 23MIS7091
 public class MaxProductSubarray {
 
     public static int maxProduct(int[] nums) {
@@ -25,7 +25,7 @@ public class MaxProductSubarray {
         for (int i = 1; i < nums.length; i++) {
             int temp = maxProduct;
             maxProduct = Math.max(Math.max(maxProduct * nums[i], minProduct * nums[i]), nums[i]);
-            minProduct = Math.min(Math.min(temp * nums[i], minProduct * nums[i]), nums[i]);5
+            minProduct = Math.min(Math.min(temp * nums[i], minProduct * nums[i]), nums[i]);
             result = Math.max(result, maxProduct);
         }
 
