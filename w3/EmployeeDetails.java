@@ -1,3 +1,5 @@
+// Week 3 Question 1
+
 import java.util.Scanner;
 
 class Member {
@@ -62,7 +64,7 @@ class Manager extends Member {
     }
 }
 
-public class Main {
+public class EmployeeDetails {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
