@@ -1,0 +1,28 @@
+1. Mr. John wants to implement the multiple inheritance in java though interface concept.
+He needs to create two interfaces with the necessary requirements as follows,
+->Department interface
+Attributes: Dept_name, Mentor_name, Coordinator_name, HOD_name
+Methods:  displayDeaprtemt()------it print the details of department.
+->Course interface
+Attributes: couse_name
+Methods: 
+          printCourse()- it will print course name.
+And create the Student class with the following requirements,
+            Attributes: student_reg, student_name 
+            Methods: setStudent(String,String)
+                     printStudent()- it print student details.
+He needs to design Student class by implementing Department and Course Interfaces.
+ And also he needs to create array of n object of Student class and display all possible details.
+As a java developer you assist Mr.John to complete above implementation.
+
+2. Mr. Roshan wants to implement the multiple inheritance in java though interface concept. He needs to create two interfaces with the necessary requirements as follows,
+Address
+Methods: String getAddress(), void setAddress(String add)
+Salary
+Methods:Float getSalary(), void setSalary(Float sal)
+And create the Employee class with the following requirements,
+            Attribute:
+        int emp_id, Sting emp_name, String address, Float salary;
+           Methods: 
+        Getter and setter methods for remaining attributes(emp_id,emp_name).
+He needs to design Employee class by implementing Address and Salary Interface. As a java developer you assist Mr. Roshan to complete above implementation and create 3 employee objects and prnt all details.
